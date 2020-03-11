@@ -1,30 +1,5 @@
----
-page_type: sample
-languages:
-- javascript
-- html
-products:
-- azure
-description: "Azure Storage Blob Upload from a Node.js Web Application"
-urlFragment: storage-blob-upload-from-webapp-node
----
-
-# Azure Storage Blob Upload from a Node.js Web Application
-
-This sample demonstrates how to use the Azure Storage SDK in the context of an [Express](https://expressjs.com/) application to upload images into Azure Blob Storage.
-
-## Getting started
-
-Clone the repository to your machine:
-
 ```bash
-git clone https://github.com/Azure-Samples/storage-blob-upload-from-webapp-node.git
-```
-
-Change into the `storage-blob-upload-from-webapp-node` folder:
-
-```bash
-cd storage-blob-upload-from-webapp-node
+cd edit-ordering
 ```
 
 Install dependencies via `npm`:
@@ -44,7 +19,3 @@ Start the server:
 ```bash
 npm start
 ```
-
-Navigate to [http://localhost:3000](http://localhost:3000) and upload an image to blob storage.
-
-You can use the [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/) to view blob containers and verify your upload is successful.
